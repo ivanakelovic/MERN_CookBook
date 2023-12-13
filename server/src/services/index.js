@@ -1,0 +1,9 @@
+module.exports.userService = require('./user.service');
+module.exports.fileService = require('./file.service');
+module.exports.categoryService = require('./category.service');
+module.exports.ingredientService = require('./ingredient.service');
+module.exports.recipeService = require('./recipe.service');
+module.exports.authService = require('./auth.service');
+module.exports.tokenService = require('./token.service');
+module.exports.evaluationService=require('./evaluation.service');
+module.exports.statsService=require('./stats.service');

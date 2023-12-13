@@ -1,0 +1,172 @@
+.purple-text{
+    color:#7f3068 !important;
+}
+
+.green-text{
+    color: #0c7c29 !important;
+}
+
+.default-button {
+    background-color: #7f3068 !important;
+    color:white !important;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.purple-table{
+    background-color: #7f3068 !important;
+    color:white !important;
+    cursor:pointer;
+
+}
+
+.green-button{
+    background-color: #0c7c29 !important;
+    color:white !important;
+    border-radius:5px;
+    cursor: pointer;
+}
+  
+.default-border {
+        border: 3px solid #7f3068 !important;
+        border-radius: 5px;
+}
+
+.btn.btn-lg:hover {
+    background-color: white;
+    color:#7f3068;
+
+}
+
+.form-check-input:checked {
+    background-color: #0c7c29 !important; 
+}
+ 
+.list-item::marker{
+    color:#0c7c29 !important;
+}
+
+.badge-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    justify-content: center;
+}
+
+.vegan-bagde{
+    background-color: #5cb85c;
+    color:#fff;
+    border:2px solid #0c7c29;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.vegetarian-badge{
+    background-color: #ffa500;
+    color:#fff;
+    border:2px solid #ff4500;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+.kosher-badge{
+    background-color: #ff69b4;
+    color:#fff;
+    border:2px solid #ff1493;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.halal-badge{
+    background-color: #4169e1;
+    color:#fff;
+    border:2px solid #000080;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.gluten-free-badge{
+    background-color: #ff0000;
+    color:#fff;
+    border:2px solid #8b0000;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+
+.meal-category-badge {
+    background-color: #7f3068 ; 
+    color: #fff; 
+    border:2px solid #541f4e ;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.recipe-photo{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom:0; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(153, 154, 149, 0.7);
+    color: #333; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.overlay-text-click{
+    position: absolute;
+    top:50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(153, 154, 149, 0.7);
+    color: #333; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    font-weight: bold !important;
+    z-index: 1;
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.centered-bullets {
+    list-style-position: outside;
+    text-align: center;
+  }
+  
+.light-purple-bg{
+    background-color: orchid;
+}
+
+.preparation-method{
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    
+}
+
+body{
+    background-image: url("../logo//bg-dark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

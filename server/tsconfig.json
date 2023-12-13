@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",               // Use ES6 or later
+        "module": "commonjs",          // CommonJS for Node.js
+        "outDir": "./dist",            // Output directory for transpiled code
+        "rootDir": "./src",            // Source code directory
+        "strict": true,                // Enable strict mode
+        "esModuleInterop": true,       // Enable ES Module interop
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "sourceMap": true              // Generate source maps
+    },
+    "include": ["src/**/*.ts"],      // Include your TypeScript source files
+    "exclude": ["node_modules"]      // Exclude node_modules
+}

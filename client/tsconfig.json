@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                 // Specify the target ECMAScript version
+    "module": "CommonJS",            // Specify the module system (e.g., CommonJS)
+    "outDir": "./dist",              // Specify the output directory for compiled files
+    "strict": false ,                  // Disable strict type checking
+    "jsx": "react",                    // Specify JSX settings
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],  // Specify the files to include for compilation
+  "exclude": ["node_modules"]                   // Specify directories or files to exclude from compilation
+}
